@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Show User</h1>
+    <h1>Show CAT</h1>
     <p>id: {{ userId }}</p>
-    <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <p>ชื่อน้องแมว{{ user.name }} - {{ user.lastname }}</p>
+    <p>ข้อมูลแมว: {{ user.email }}</p>
+    <p>สายพันธ์: {{ user.password }}</p>
   </div>
 </template>
 <script>

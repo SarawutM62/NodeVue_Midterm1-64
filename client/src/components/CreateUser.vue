@@ -1,19 +1,19 @@
 <template>
 <div>
-    <h1>Create User</h1>
+    <h1>เพิ่มจำนวนแมว</h1>
     <form v-on:submit.prevent = "createUser">
-        <p>name: <input type="text" v-model="user.name"></p>
-        <p>lastname: <input type="text" v-model="user.lastname"></p>
-        <p>email: <input type="text" v-model="user.email"></p>
-        <p>password: <input type="text" v-model="user.password"></p>
-        <p><button type="submit">create user</button></p>
+        <p>ชื่อน้องแมว: <input type="text" v-model="user.name"></p>
+        <p>ราคาน้องแมว: <input type="text" v-model="user.lastname"></p>
+        <p>ข้อมูลแมว: <input type="text" v-model="user.email"></p>
+        <p>สายพันธ์: <input type="text" v-model="user.password"></p>
+        <p><button type="submit">เพิ่มน้องแมว</button></p>
     </form>
     <hr>
     <div>
-        <p>name: {{user.name}}</p>
-        <p>lastname: {{user.lastname}}</p>
-        <p>email: {{user.email}}</p>
-        <p>password: {{user.password}}</p>
+        <p>ชื่อน้องแมว: {{user.name}}</p>
+        <p>ราคาน้องแมว: {{user.lastname}}</p>
+        <p>ข้อมูลแมว: {{user.email}}</p>
+        <p>สายพันธ์: {{user.password}}</p>
     </div>
 </div>
 </template>
